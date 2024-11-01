@@ -1,7 +1,7 @@
 <template>
     <header class="top-bar">
       <div class="logo">
-        <h4>Task/r</h4>
+        <a href="/"><h4>Task/r</h4></a>
       </div>
   
       <nav class="nav-links">
@@ -53,7 +53,7 @@
     padding: 0;
   }
   
-  .nav-links a {
+  .nav-links a, .logo a {
     color: #fff;
     text-decoration: none;
   }
