@@ -6,8 +6,12 @@ const routes = [
         component: () => import("./Pages/HomeRoute.vue"),
     },
     {
-        path: "/test",
-        component: () => import("./Pages/TestRoute.vue"),
+        path: "/profile",
+        component: () => import("./Pages/Profile.vue"),
+    },
+    {
+        path: "/about",
+        component: () => import("./Pages/About.vue"),
     },
 ];
 
